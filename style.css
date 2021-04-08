@@ -8,7 +8,7 @@
 header {
     position: fixed;
     top: 0;
-    background-color: gray;
+    background-color: lightgoldenrodyellow;
     width: 100%;
     margin: 0;
     left: 0;
@@ -19,7 +19,7 @@ footer {
 }
 
 main {
-    width: 70%;
+    width: 100%;
     min-height: 60vh;
     float: left;
     background-color: white;
@@ -32,10 +32,11 @@ footer {
 nav li {
     float: right;
     list-style-type: none;
-    
+    background-color: inherit;
 }
 
 nav ul {
     float: right;
     padding: 0;
+    background-color: inherit;
 }
