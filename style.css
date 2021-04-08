@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     border: 1px solid red;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header,
@@ -22,4 +23,9 @@ aside {
 
 footer {
     clear: both;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
 }
